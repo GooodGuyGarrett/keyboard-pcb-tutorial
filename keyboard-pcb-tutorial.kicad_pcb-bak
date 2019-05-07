@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 2)
+    (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 24)
@@ -642,7 +642,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5CD0E788)
-    (at 28.989001 44.472001)
+    (at 175.039001 99.590001)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5CD1BF5D)
@@ -974,7 +974,7 @@
   )
 
   (module random-keyboard-parts:SKQG-1155865 (layer F.Cu) (tedit 5C42C5DE) (tstamp 5CD0E84E)
-    (at 30.959001 36.302001)
+    (at 177.009001 91.420001)
     (path /5CD0ECEB)
     (attr smd)
     (fp_text reference SW1 (at 0 4.064) (layer F.SilkS)
@@ -1142,7 +1142,7 @@
   )
 
   (module random-keyboard-parts:Molex-0548190589 (layer F.Cu) (tedit 5C494815) (tstamp 5CD0E8B1)
-    (at 44.959001 23.824001)
+    (at 191.009001 78.942001)
     (path /5CD18C5C)
     (attr smd)
     (fp_text reference USB1 (at 2.032 0 90) (layer F.SilkS)
@@ -1232,8 +1232,5 @@
       (rotate (xyz 0 0 0))
     )
   )
-
-  (gr_arc (start 109.474 84.455) (end 109.474 86.868) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 109.474 51.181) (end 111.887 51.181) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
